@@ -1,0 +1,187 @@
+body{
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-image:url(immagini/sfondo.jpg.jpg);
+  background-repeat:no-repeat ;
+  background-size: cover;
+  background-position: center;
+}
+
+#logo{
+  font-size: 90px;
+  font-weight: bold;
+  text-align: center;
+  color: red;
+  margin-left: 30px;
+   margin-top: 15px;
+   padding-bottom: 40px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+main{ 
+  
+ max-width: 450px;
+  text-align: center;
+  margin: 0% auto;
+  padding: 50px 100px 50px 100px;
+   color: white;
+   background-color:rgba(0, 0, 0, 0.8);
+   font-family: 'Noto Sans Chorasmian', sans-serif;
+}
+
+input{
+  border-radius: 10px;
+  width: 100%;
+  height: 40px;
+  padding: 8px 15px;
+  margin-top: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border: 1px solid transparent;
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+}
+
+.username,.password{
+  width: 100%;
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: white;
+
+}
+
+.login-btn input{
+  margin-top: 15px;
+  border-radius: 10px;
+  padding: 16px 14px 18px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: white;
+  background-color: red;
+  margin-right: 50px;
+}
+
+.login-btn input:hover{
+  cursor: pointer;
+  background-color: darkred;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+  font-family: 'Noto Sans Chorasmian', sans-serif;
+}
+
+form{
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+h1{
+ text-align: center;
+ font-size: 50px;
+ font-family: 'Bebas Neue', sans-serif;
+}
+
+.signup{
+text-align: left;
+font-weight: bold;
+font-family: 'Noto Sans Chorasmian', sans-serif;
+}
+a{
+  color: grey;
+  text-decoration: none;
+}
+
+a:hover{
+text-decoration: underline;
+  color: red
+}
+
+@media(max-width:700px){
+
+
+#logo{
+ font-size: 90px;
+
+}
+ 
+h1 {   
+
+  font-size: 30px;
+  
+}
+
+  main{
+    max-width: 300px;
+    font-size: 12px;
+    padding: 25px 50px 25px 50px;
+  }
+
+  label{
+    flex-direction: column;
+    font-size: 12px;
+  }
+  input{
+    height: 35px;
+    font-size: 11px;
+   }
+   .error{
+    font-size: 10px;
+   }
+   body{
+    background-image: url(immagini/sfondo_mobile.jpg);
+    
+   }
+}
+
+@media(max-width:375px){
+
+
+  
+  h1 {   
+  
+    font-size: 25px;
+    
+  }
+  
+    main{
+      max-width: 250px;
+      font-size: 12px;
+      padding: 25px 50px 25px 50px;
+    }
+  
+   
+
+    input{
+     height: 30px;
+     font-size: 11px;
+    }
+  }
+   
+
+  @media(max-width:325px){
+
+
+#logo{
+  font-size: 80px;
+ 
+  }
+
+     main{
+        max-width: 200px;
+        font-size: 10px;
+        padding: 25px 50px 25px 50px;
+      }
+  
+      input{
+       height: 30px;
+       font-size: 11px;
+      }
+     
+    }

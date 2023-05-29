@@ -1,0 +1,641 @@
+#ricerca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+  
+  #barra-ricerca {
+    height: 50px;
+    width: 600px;
+    margin-top: -200px;
+    margin-right: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    outline: none;
+    background-color: grey;
+    border: none;
+    cursor: pointer;
+  }
+
+  #bottone-ricerca {
+    height: 50px;
+    width: 100px;
+    margin-top: -200px;
+    border-radius: 20px;
+    font-size: 20px;
+  }
+  
+  .preferiti{
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;   
+}
+
+
+button{
+    background-color: red;
+    color: #dcdcdc;
+    font-family: 'Noto Sans Chorasmian', sans-serif;
+    border: none;
+    padding: 10px;
+}
+
+button:hover{
+    background-color: rgba(255, 0, 0, 0.684);
+    transform: scale(1.07);
+    cursor: pointer;
+}
+
+
+#elenco_serie div,#mostra_serie div,#serie_preferiti div,#risultati div{
+    width: 25%;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    margin:15px;
+    margin-bottom: 50px;
+}
+
+
+#elenco_serie,#mostra_serie,#serie_preferiti,#risultati{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+#elenco_serie div img,#mostra_serie div img,#serie_preferiti div img,#risultati div img{
+    width: 300px;
+    height: 200px;
+}
+
+
+#elenco_serie div div,#mostra_serie div div,#risultati div div{
+display: flex;
+justify-content: center;
+width: auto;
+}
+
+#mostra_serie div p,#elenco_serie div p,#risultati div p{
+font-size: 22px;
+text-align: center;
+}
+
+
+
+header{
+   background-image: url(immagini/sfondo\ home.jpg);
+    background-position: center;
+    height: 700px;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    font-size: 15px;
+    line-height: normal;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+#menu a{
+    font-family: 'Noto Sans Chorasmian', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin:20px;
+    line-height: 2em;
+    cursor: pointer; 
+  
+}
+
+
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 10px ;
+    background-color: black;
+    
+    
+}
+
+a{  
+color: red;
+font-size: 20px;
+ }
+
+
+a:hover{
+  color: darkred;
+transform: scale(1.07);
+}
+
+#intestazione{
+    display:flex;
+    justify-content: space-between; 
+}
+
+h1{
+    margin-top:140px;
+    color:red;
+    font-size: 200px;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+  }
+
+ 
+  
+#titolo{
+   
+    display:flex;
+    justify-content: center;
+    padding:10px;
+    font-size :30px;
+    color: white;
+}
+
+section{
+    background-color: black;
+    background-position: center;
+    height: auto;
+}
+
+section h3{
+    font-family: 'Noto Sans Chorasmian', sans-serif;
+    text-transform: uppercase;
+   color: white;
+   margin-top: 20px; 
+   font-size: 22px;
+}
+
+
+ p{
+    color: red;
+    font-family: 'Noto Sans Chorasmian', sans-serif;
+}
+
+p2{
+    color: red;
+    font-family: 'Noto Sans Chorasmian', sans-serif;
+    margin-top: -150px;
+    font-size: 20px;
+}
+ 
+footer {
+    background-color: black;
+    font-family: 'Noto Sans Chorasmian', sans-serif;
+    color: #dcdcdc;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+ 
+  
+  footer div {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+  }
+  
+  footer p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-left: 150px;
+  }
+  
+  footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer li {
+    margin-bottom: 5px;
+    padding-left: 150px;
+  }
+
+  
+  #aiuto p{
+    color:gray; 
+    font-size: 15px;
+    font-family: 'Noto Sans Chorasmian', sans-serif;
+    padding-left: 150px;
+  }
+
+body{
+    margin:0px;
+}
+
+#contenitorePlaylist{
+    background-color: black;
+}
+
+  
+#playlist div img{
+    width: 30%; 
+    margin:10px;
+    border-radius: 20px ;
+    border:3px solid red;
+}
+
+
+
+#playlist div{
+    display:flex;
+    align-items: center;
+   color: white; 
+}
+
+
+#playlist{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    width: 700px;
+    background-color: black;
+}
+
+
+#ricerca_playlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#playlist div a{
+    margin:30px;
+    font-size: 20px;
+    font-family: 'Noto Sans Chorasmian', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+#ricerca_playlist button,#playlist button{
+    font-size: 25px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: red;
+    color: #dcdcdc;
+    font-family: 'Noto Sans Chorasmian', sans-serif;
+    padding: 10px;
+}
+
+
+
+@media(max-width:1600px)  {
+ 
+    #elenco_serie div,#mostra_serie div,#serie_preferiti div,#risultati div{
+        width: 30%;
+       
+    }
+    #elenco_serie div img,#mostra_serie div img,#serie_preferiti div img,#risultati div img{
+    height: 150px;
+    width: 180px;
+    }
+
+    #mostra_serie div p,#elenco_serie div p,#risultati div p{
+    
+    font-size:15px;
+    }
+
+    section h3{
+      font-size: 15px;
+    }
+  
+    #titolo{
+   
+        font-size: 25px;
+    }
+
+    
+    header {
+    height: 500px;
+    
+    }
+    h1{
+
+     font-size: 150px;
+    }
+
+    footer {
+        padding:10px;  
+    }
+    footer p {
+      padding: 0%;
+      font-size:15px;
+      margin-left:80px;
+       
+      }
+      
+  #aiuto p{
+    font-size:12px;
+    padding: 0%
+  }
+  footer li {
+    margin-left:80px;
+    padding: 0%
+  }
+
+  #playlist{
+    width: 600px;
+   }
+   #ricerca_playlist button,#playlist button {
+    font-size: 20px;
+}
+
+
+}
+
+
+
+@media (max-width: 912px)  {
+
+    #elenco_serie div,#mostra_serie div,#serie_preferiti div,#risultati div{
+        width: 45%;
+       
+    }
+    #elenco_serie div img,#mostra_serie div img,#serie_preferiti div img,#risultati div img{
+        height: 150px;
+        width: 180px;
+        
+    }
+    
+    #mostra_serie div p,#elenco_serie div p,#risultati div p{
+       
+        font-size:15px;
+        }
+
+        header {
+          height: 400px;
+          
+          }
+
+    section h3{
+        font-size: 15px;
+      }  
+
+
+      #titolo{
+   
+        font-size: 20px;
+    }
+
+
+    #intestazione{
+        flex-direction: column;
+        align-items: center;
+    }
+     h1{
+        margin:0px;
+        font-size: 130px;
+    }
+    
+   .preferiti{
+        font-size: 15px;
+        margin-bottom: 20px;
+        border-radius: 15px;   
+    }
+    
+    #barra-ricerca {
+        height: 50px;
+        width: 600px;
+        margin-top: -170px;
+      }
+    
+      #bottone-ricerca {
+       
+        font-size: 15px;
+        margin-top: -170px;
+      }
+
+
+      footer {
+        padding:10px;
+    }
+    footer p {
+        font-size:15px;
+        margin-left:80px;
+       
+      }
+      
+  #aiuto p{
+    font-size:12px;
+  }
+  footer li {
+    font-size: 14px;
+  }
+
+
+  #playlist{
+    width: 600px;
+   }
+
+  #playlist div img{
+    width: 20%; 
+   
+  
+}
+
+
+  #playlist div a{
+   font-size: 20px;
+}
+
+#ricerca_playlist button,#playlist button {
+    font-size: 20px;
+}
+p2{
+  font-size: 15px;
+}
+
+}
+
+
+
+@media (max-width: 426px) {
+
+    header {
+        height: 250px;
+       
+    }
+   
+    #elenco_serie div,#mostra_serie div,#serie_preferiti div,#risultati div{
+        width: 70%;
+       
+    }
+    #elenco_serie div img,#mostra_serie div img,#serie_preferiti div img,#risultati div img{
+        height: 150px;
+        width: 190px;
+        
+    }
+    
+    #mostra_serie div p,#elenco_serie div p,#risultati div p{
+       
+        font-size:15px;
+        }
+
+
+    section h3{
+        font-size: 15px;
+      }  
+
+
+      h1{
+        font-size: 80px;
+        margin-top: 30px;
+    }
+
+      #titolo{
+   
+        font-size: 11px;
+    }
+
+
+    #intestazione{
+        flex-direction: column;
+        align-items: center;
+    }
+    a {
+       
+        font-size: 15px;
+    }
+    
+   .preferiti{
+        font-size: 15px;
+        margin-bottom: 20px;
+        border-radius: 15px;   
+    }
+    
+    #barra-ricerca {
+        height: 30px;
+        width: 250px;
+        margin-top: -170px;
+        font-size: 15px;
+      }
+    
+      #bottone-ricerca {
+        height: 30px;
+        width: 200px;
+        font-size: 10px;
+        margin-top: -170px;
+        
+      }
+
+
+      footer {
+        margin-left:-50px;
+        width: auto;
+    }
+    footer p {
+        font-size:12px;
+        
+       
+      }
+      p2{
+        font-size: 10px;
+      }
+      
+  #aiuto p{
+    font-size:10px;
+  }
+  footer li {
+    font-size: 10px;
+    margin-bottom: 2px;
+  }
+
+  #playlist div img{
+    width: 30%; 
+   
+  
+}
+
+#playlist{
+  width: 300px;
+ }
+
+  #playlist div a{
+   font-size: 10px;
+}
+
+#ricerca_playlist button,#playlist button {
+    font-size: 10px;
+}
+
+}
+
+
+@media (max-width: 393px) {
+
+   
+    header {
+        height: 200px;
+       
+    }
+
+    a {
+       
+        font-size: 12px;
+    }
+    
+
+    #titolo{
+   
+      font-size: 10px;
+  }
+
+ 
+      footer {
+        margin-left:-50px;
+        width: auto;
+    }
+    footer p {
+        font-size:10px;
+      }
+      
+  #aiuto p{
+    font-size:8px;
+  }
+  footer li {
+    font-size: 8px;
+    margin-bottom: 2px;
+  }
+
+}
+
+
+@media (max-width: 321px) {
+
+  
+  a {
+     
+      font-size: 8px;
+  }
+  
+  #titolo{
+   
+    font-size: 8px;
+}
+
+section h3{
+  font-size: 12px;
+}  
+
+}
+
+
+
+
+
+
+

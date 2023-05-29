@@ -1,0 +1,210 @@
+body{
+  background-color: white;
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-image:url(immagini/sfondo.jpg.jpg);
+  background-repeat:no-repeat ;
+  background-size: cover;
+  background-position: center;
+}
+
+#logo{
+  font-size: 90px;
+font-weight: bold;
+text-align: center;
+color: red;
+margin-left: 30px;
+ margin-top: 15px;
+ padding-bottom: 40px;
+font-family: 'Bebas Neue', sans-serif;
+}
+
+main{ 
+  display: flex;
+ max-width: 450px;
+  text-align: center;
+  margin: 0% auto;
+  padding: 50px 100px 50px 100px;
+   color: white;
+   background-color:rgba(0, 0, 0, 0.8);
+   font-family: 'Bebas Neue', sans-serif;
+}
+
+
+input{
+  
+  border-radius: 10px;
+  width: 100%;
+  height: 20px;
+  padding: 8px 15px;
+  margin-top: 10px;
+  font-size: 16px;
+  margin-bottom: 5px;
+  border: 1px solid transparent;
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+ 
+}
+
+.name, .surname, .username, .email, .password, .confirm_password{
+  width: 100%;
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color:white;
+  font-family: 'Noto Sans Chorasmian', sans-serif;
+}
+h1{
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Bebas Neue', sans-serif;
+ }
+ 
+
+form{
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.erroreInput{
+  border: 2px solid red;
+}
+
+.errore{
+  color:red;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Noto Sans Chorasmian', sans-serif;
+}
+
+
+.submit input{
+  width: 105%;
+  margin-top: 15px;
+  border-radius: 10px;
+  padding: 16px 14px 20px;
+  height: 50px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: white;
+  background-color: red;
+  margin-right: 50px;
+  font-weight: bold;
+}
+
+.submit input:hover{
+  cursor: pointer;
+  background-color: darkred;
+}
+
+.signup{
+font-size: 18px;
+ margin-bottom: 40px;
+ text-align: left;
+ font-family: 'Noto Sans Chorasmian', sans-serif;
+ font-weight: bold;
+}
+a{
+  color: grey;
+  text-decoration: none;
+}
+
+a:hover{
+text-decoration: underline;
+  color: red
+}
+
+
+
+@media(max-width:700px){
+
+ .errore{
+  font-size:10px;
+ }
+ #logo{
+  font-size: 90px;
+ 
+}
+   
+  h1 {   
+  
+    font-size: 25px;
+  }
+  
+    main{
+      max-width: 300px;
+      padding: 25px 50px 25px 50px;
+    }
+  
+    label{
+      flex-direction: column;
+      font-size: 12px;
+    }
+    input{
+      height: 15px;
+      font-size: 11px;
+     }
+
+
+     .signup{
+      font-size: 12px;
+     }
+     body{
+      background-image: url(immagini/sfondo_mobile.jpg);
+      
+     }
+  }
+  
+  
+  
+  @media(max-width:375px){
+
+   
+    #logo{
+     font-size: 80px;
+  
+   }
+      
+     h1 {   
+     
+       font-size: 20px;
+     }
+     
+       main{
+         max-width: 250px;
+         padding: 25px 50px 25px 50px;
+       }
+     
+    
+       input{
+         height: 12px;
+         font-size: 11px;
+        }
+  
+     }
+  
+
+     @media(max-width:325px){
+
+         main{
+           max-width: 200px;
+           padding: 25px 50px 25px 50px;
+         }
+       
+         h1 {   
+     
+          font-size: 15px;
+        }
+        
+
+
+         input{
+           height: 10px;
+           font-size: 11px;
+           
+          }
+    
+       }
+    

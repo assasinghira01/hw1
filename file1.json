@@ -1,0 +1,429 @@
+{ 
+    "results": [ 
+      {
+        "title": "Game of Thrones",
+        "image": "immagini/serie1.jpg",
+        "genere": "Genere: fantasy",
+        "valutazione":"Valutazione: 9.3"
+      },
+      {
+        "title": "Breaking Bad",
+        "image": "immagini/serie2.jpg",
+        "genere": "Genere: Crime, Drama",
+        "valutazione": "valutazione: 9.5"
+      },
+      {
+        "title": "Stranger Things",
+        "image": "immagini/serie3.jpg",
+        "genere": "Genere: Science Fiction, Horror",
+        "valutazione": "valutazione: 8.8"
+      },
+      {
+        "title": "Friends",
+        "image": "immagini/serie4.jpg",
+        "genere": "Genere: Comedy",
+        "valutazione": "valutazione: 8.9"
+      },
+      {
+        "title": "The Office",
+        "image": "immagini/serie5.jpg",
+        "genere": "Genere: Comedy",
+        "valutazione": "valutazione: 8.9"
+      },
+      {
+        "title": "La casa di carta",
+        "image": "immagini/serie6.jpg",
+        "genere": "Genere: Crime, Drama",
+        "valutazione": "valutazione: 8.4"
+      },
+      {
+        "title": "Black Mirror",
+        "image": "immagini/serie7.jpg",
+        "genere": "Genere: Drama, Sci-Fi, Thriller",
+        "valutazione": "valutazione: 8.8"
+      },
+      {
+        "title": "The Crown",
+        "image": "immagini/serie8.jpg",
+        "genere": "Genere: Biography, Drama, History",
+        "valutazione": "valutazione: 8.7"
+      },
+      {
+        "title": "Lucifer",
+        "image": "immagini/serie9.jpg",
+        "genere": "Genere: Police procedural, Comedy",
+        "valutazione": "valutazione: 8.7"
+      },
+      {
+        "title": "Narcos",
+        "image": "immagini/serie10.jpg",
+        "genere": "Genere: crime",
+        "valutazione": "Valutazione: 8.8"
+      },
+      {
+        "title": "The Big Bang Theory",
+        "image": "immagini/serie11.jpg",
+        "genere": "Genere: comedy",
+        "valutazione": "Valutazione: 8.1"
+      },
+      {
+        "title": "Sherlock",
+        "image": "immagini/serie12.jpg",
+        "genere": "Genere: crime",
+        "valutazione": "Valutazione: 9.1"
+      },
+      {
+        "title": "Westworld",
+        "image": "immagini/serie13.jpg",
+        "genere": "Genere: sci-fi",
+        "valutazione": "Valutazione: 8.7"
+      },
+      {
+        "title": "The Witcher",
+        "image": "immagini/serie14.jpg",
+        "genere": "Genere: fantasy",
+        "valutazione": "Valutazione: 8.2"
+      }, {
+        "title": "Prison Break",
+        "image": "immagini/serie15.jpg",
+        "genere": "Genere: action",
+        "valutazione": "Valutazione: 8.3"
+      },
+      {
+        "title": "Better Call Saul",
+        "image": "immagini/serie16.jpg",
+        "genere": "Genere: drama",
+        "valutazione": "Valutazione: 8.7"
+      },
+      {
+        "title": "Peaky Blinders",
+        "image": "immagini/serie17.jpg",
+        "genere": "Genere: crime",
+        "valutazione": "Valutazione: 8.8"
+      },
+      {
+        "title": "The Mandalorian",
+        "image": "immagini/serie18.jpg",
+        "genere": "Genere: sci-fi",
+        "valutazione": "Valutazione: 8.8"
+      },
+      {
+        "title": "The Handmaid's Tale",
+        "image": "immagini/serie19.jpg",
+        "genere": "Genere: drama",
+        "valutazione": "Valutazione: 8.4"
+      },
+      {
+        "title": "Vikings",
+        "image": "immagini/serie20.jpg",
+        "genere": "Genere: action",
+        "valutazione": "Valutazione: 8.5"
+      },
+      {
+        "title": "The Haunting of Hill House",
+        "image": "immagini/serie21.jpg",
+        "genere": "Genere: horror",
+        "valutazione": "Valutazione: 8.7"
+      },
+      {
+        "title": "Dexter",
+        "image": "immagini/serie22.jpg",
+        "genere": "Genere: crime",
+        "valutazione": "Valutazione: 8.6"
+      },
+      {
+        "title": "House of Cards",
+        "image": "immagini/serie23.jpg",
+        "genere": "Genere: drama",
+        "valutazione": "Valutazione: 8.7"
+      },
+      {
+        "title": "Homeland",
+        "image": "immagini/serie24.jpg",
+        "genere": "Genere: drama",
+        "valutazione": "Valutazione: 8.3"
+      },
+      {
+        "title": "Mindhunter",
+        "image": "immagini/serie25.jpg",
+        "genere": "Genere: crime",
+        "valutazione": "Valutazione: 8.6"
+      },
+      {
+        "title": "Fargo",
+        "image": "immagini/serie26.jpg",
+        "genere": "Genere: crime",
+        "valutazione": "Valutazione: 8.9"
+      },
+      {
+        "title": "Rick and Morty",
+        "image": "immagini/serie27.jpg",
+        "genere": "Genere: animation",
+        "valutazione": "Valutazione: 9.2"
+      },
+      {
+        "title": "Dark",
+        "image": "immagini/serie28.jpg",
+        "genere": "Genere: sci-fi",
+        "valutazione": "Valutazione: 8.8"
+      },
+      {
+        "title": "The Boys",
+        "image": "immagini/serie29.jpg",
+        "genere": "Genere: action",
+        "valutazione": "Valutazione: 8.7"
+      },
+      {
+        "title": "Mr. Robot",
+        "image": "immagini/serie30.jpg",
+        "genere": "Genere: drama",
+        "valutazione": "Valutazione: 8.5"
+      },
+      {
+        "title": "The Expanse",
+        "image": "immagini/serie31.jpg",
+        "genere": "Genere: sci-fi",
+        "valutazione": "Valutazione: 8.5"
+      },
+      {
+        "title": "House",
+        "image": "immagini/serie32.jpg",
+        "genere": "Genere: drama",
+        "valutazione": "Valutazione: 8.7"
+      },
+      {
+        "title": "True Detective",
+        "image": "immagini/serie33.jpg",
+        "genere": "Genere: crime",
+        "valutazione": "Valutazione: 9.0"
+      },
+      {
+        "title": "The Simpsons",
+        "image": "immagini/serie34.jpg",
+        "genere": "Genere: animation",
+        "valutazione": "Valutazione: 8.7"
+      },
+      {
+        "title": "Lost",
+        "image": "immagini/serie35.jpg",
+        "genere": "Genere: adventure",
+        "valutazione": "Valutazione: 8.3"
+      },
+      {
+        "title": "Downton Abbey",
+        "image": "immagini/serie36.jpg",
+        "genere": "Genere: drama",
+        "valutazione": "Valutazione: 8.7"
+      },
+      {
+        "title": "The Sopranos",
+        "image": "immagini/serie37.jpg",
+        "genere": "Genere: crime",
+        "valutazione": "Valutazione: 9.2"
+      },
+       
+          {
+            "title": "Mercoledì",
+            "image": "immagini/serie38.jpg",
+            "genere": "Genere: commedia",
+            "valutazione": "Valutazione: 8.5"
+          },
+          {
+            "title": "Scream",
+            "image": "immagini/serie39.jpg",
+            "genere": "Genere: horror",
+            "valutazione": "Valutazione: 7.2"
+          },
+          {
+            "title": "Bridgerton",
+            "image": "immagini/serie40.jpg",
+            "genere": "Genere: romance",
+            "valutazione": "Valutazione: 7.8"
+          },
+          {
+            "title": "I Griffin",
+            "image": "immagini/serie41.jpg",
+            "genere": "Genere: animazione",
+            "valutazione": "Valutazione: 8.1"
+          },
+          {
+            "title": "The 100",
+            "image": "immagini/serie42.jpg",
+            "genere": "Genere: sci-fi",
+            "valutazione": "Valutazione: 7.6"
+          },
+          {
+            "title": "Jeffrey Dahmer",
+            "image": "immagini/serie43.jpg",
+            "genere": "Genere: crime",
+            "valutazione": "Valutazione: 8.9"
+          },
+          {
+            "title": "Romanzo Criminale",
+            "image": "immagini/serie44.jpg",
+            "genere": "Genere: crime",
+            "valutazione": "Valutazione: 8.3"
+          },
+          {
+            "title": "Spartacus",
+            "image": "immagini/serie45.jpg",
+            "genere": "Genere: azione",
+            "valutazione": "Valutazione: 8.5"
+          },
+          {
+            "title": "I Segreti di Twin Peaks",
+            "image": "immagini/serie46.jpg",
+            "genere": "Genere: mystery",
+            "valutazione": "Valutazione: 8.8"
+          },
+          {
+            "title": "Mare Fuori",
+            "image": "immagini/serie47.jpg",
+            "genere": "Genere: drammatico",
+            "valutazione": "Valutazione: 8.7"
+          },
+          {
+            "title": "Red Rose",
+            "image": "immagini/serie48.jpg",
+            "genere": "Genere: drammatico",
+            "valutazione": "Valutazione: 8.7"
+          },
+          {
+            "title": "Elite",
+            "image": "immagini/serie49.jpg",
+            "genere": "Genere: teen drama",
+            "valutazione": "Valutazione: 8.5"
+          },
+          {
+            "title": "Alice in Borderland",
+            "image": "immagini/serie50.jpg",
+            "genere": "Genere: thriller",
+            "valutazione": "Valutazione: 8.9"
+          },
+          {
+            "title": "Outer Banks",
+            "image": "immagini/serie51.jpg",
+            "genere": "Genere: avventura",
+            "valutazione": "Valutazione: 7.9"
+          },
+          {
+            "title": "La regina Carlotta",
+            "image": "immagini/serie52.jpg",
+            "genere": "Genere: storico",
+            "valutazione": "Valutazione: 8.3"
+          },
+          {
+            "title": "Sex Education",
+            "image": "immagini/serie53.jpg",
+            "genere": "Genere: commedia",
+            "valutazione": "Valutazione: 8.8"
+          },
+          {
+            "title": "Summertime",
+            "image": "immagini/serie54.jpg",
+            "genere": "Genere: Comedy",
+            "valutazione": "Valutazione: 8.9"
+          },
+          {
+            "title": "Chiamatemi Anna",
+            "image": "immagini/serie55.jpg",
+            "genere": "Genere: Drama",
+            "valutazione": "Valutazione: 7.5"
+          },
+          {
+            "title": "1883",
+            "image": "immagini/serie56.jpg",
+            "genere": "Genere: Drama, Western",
+            "valutazione": "Valutazione: 8.2"
+          },
+          {
+            "title": "Versailles",
+            "image": "immagini/serie57.jpg",
+            "genere": "Genere: Drama, History",
+            "valutazione": "Valutazione: 9.0"
+          },
+          {
+            "title": "I Durrell",
+            "image": "immagini/serie58.jpg",
+            "genere": "Genere: Drama, Comedy",
+            "valutazione": "Valutazione: 8.7"
+          },
+          {
+            "title": "13",
+            "image": "immagini/serie59.jpg",
+            "genere": "Genere: Drama, Thriller",
+            "valutazione": "Valutazione: 8.4"
+          },
+          {
+            "title": "The Good Doctor",
+            "image": "immagini/serie60.jpg",
+            "genere": "Genere: Drama",
+            "valutazione": "Valutazione: 8.9"
+          },
+          {
+            "title": "Squid Game",
+            "image": "immagini/serie61.jpg",
+            "genere": "Genere: Drama, Thriller",
+            "valutazione": "Valutazione: 9.5"
+          },
+          {
+            "title": "You",
+            "image": "immagini/serie62.jpg",
+            "genere": "Genere: Drama, Thriller",
+            "valutazione": "Valutazione: 8.8"
+          },
+          {
+            "title": "Cobra Kai",
+            "image": "immagini/serie63.jpg",
+            "genere": "Genere: Action, Comedy",
+            "valutazione": "Valutazione: 8.6"
+          },
+          {
+            "title": "Longmire",
+            "image": "immagini/serie64.jpg",
+            "genere": "Genere: Crime, Drama",
+            "valutazione": "Valutazione: 8.3"
+          },
+          {
+            "title": "Virgin River",
+            "image": "immagini/serie65.jpg",
+            "genere": "Genere: Drama, Romance",
+            "valutazione": "Valutazione: 8.9"
+          },
+          {
+            "title": "How I Met Your Mother",
+            "image": "immagini/serie66.jpg",
+            "genere": "Genere: Comedy, Romance",
+            "valutazione": "Valutazione: 9.2"
+          },
+          {
+            "title": "The Last of Us",
+            "image": "immagini/serie67.jpg",
+            "genere": "Genere: Action, Adventure",
+            "valutazione": "Valutazione: 9.8"
+          },
+          {
+            "title": "Grey's Anatomy",
+            "image": "immagini/serie68.jpg",
+            "genere": "Genere: Drama, Romance",
+            "valutazione": "Valutazione: 8.7"
+          },
+          {
+            "title": "Vampire Diaries",
+            "image": "immagini/serie69.jpg",
+            "genere": "Genere: Drama, Fantasy",
+            "valutazione": "Valutazione: 8.5"
+          },
+          {
+            "title": "XO Kitty",
+            "image": "immagini/serie70.jpg",
+            "genere": "Genere: Comedy",
+            "valutazione": "Valutazione: 7.9"
+          }
+          
+        ]
+      }
+      
+    
+     
+     
